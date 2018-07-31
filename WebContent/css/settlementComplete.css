@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+
+#contents {
+	 text-align: center;
+	font-family: メイリオ ", sans-serif;
+}
+
+.success {
+	font-weight: bold;
+	  font-size: 30px;
+	padding-top:160px;
+}

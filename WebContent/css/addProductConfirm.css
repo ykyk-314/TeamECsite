@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+
+
+
+h1{
+font-size: 30px;
+color: #333333;
+text-align: center;
+}
+
+p{
+	text-align: center;
+}
+
+#admin-contents{
+	position:relative;
+	left:400px;
+	min-height:1150px;
+	margin-bottom:170px;
+}
+
+.vertical-list-table {
+	background-color: #f7f7f7;/*背景色*/
+	padding: 2em;/*文字の幅調整*/
+	width: 600px;/*背景の横幅*/
+	border-radius: 20px;/*背景の角の丸み*/
+	margin: 0 auto;/*センター中央寄せ*/
+	margin-bottom:20px;
+
+}
+
+th {
+color: #333333;
+font-size: 18px;
+}
+
+tr{
+padding: 30px;
+}
+
+td{
+text-align: center;
+}
+
+label {
+    border-bottom: solid 3px #ffa623;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.center{
+	text-align: center;
+	display: inline-block;
+}
+
+
+/*ボタンをクリックしたときのCSS*/
+.submit_btn:active {
+	transform: translateY(2px); /*下に動かす*/
+	background-color: #f3a769; /*薄いオレンジ色にする*/
+	border: #ed7d22; /*枠線の色変更*/
+}
+
+#correction {
+    color: #ed7d22;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.submit_btn_box{
+	margin-top:30px;
+}

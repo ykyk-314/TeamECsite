@@ -1,0 +1,122 @@
+@CHARSET "UTF-8";
+
+#HomeAction {
+	text-align: center;
+}
+
+
+h1 {
+	width: 80%;
+	margin-top: 0;
+	margin: 0 auto;
+	max-width: 500px;
+	text-align: center;
+	color: #333333;
+	font-size: 30px;
+	margin: 0 auto;
+}
+
+.Side-by-side {
+	border-bottom: 2px solid #f7f7f7;
+	padding: 20px 0 20px 0;
+	margin-left: 115px;
+min-width: 730px;
+}
+
+.horizontal-list-table {
+	display: inline-block;
+	text-align: center;
+	padding-left: 50px;
+}
+
+table th {
+	text-align: right;
+}
+
+table td .productInfo {
+	text-align: left;
+}
+
+.productNameKana {
+	font-size: 12px;
+}
+
+.productName {
+	font-weight: 600;
+	font-size: 20px;
+	display: inline-block;
+	border-bottom: solid 3px #ed7d22;
+}
+
+.nameAndSubtotal {
+	display: inline-block;
+	font-size: 20px;
+	border-bottom: 2px solid #ed7d22;
+	padding: 0 10px 0 10px;
+	font-weight: bold;
+}
+
+#subtotal {
+	font-size: 24px;
+}
+
+.productInfo {
+	font-size: 18px;
+	max-width: 246px;
+}
+
+.totalPrice {
+	position: relative;
+	left: 300px;
+}
+
+.checkbox {
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+	width: 50px;
+	margin-left: -50px;
+	position: relative;
+	top: 170px;
+	left: 120px;
+}
+
+h2 {
+	text-align: left;
+	font-size: 30px;
+}
+
+h2 label {
+	padding-left: 200px;
+}
+
+#contents-btn-set {
+	text-align: center;
+	margin: 10px;
+}
+
+.infoBox {
+	width: 70%;
+	float: right;
+}
+
+.info {
+	font-weight: bold;
+	text-align: center;
+	font-family: Hiragino Kaku Gothic ProN;
+	position: relative;
+	right: 100px;
+	margin-top: 0px;
+	margin-bottom: 60px;
+	font-size: 30px;
+}
+
+.footer, .push {
+	clear: both;
+	height: 50px;
+}
+
+.error-message {
+	color: #ed7d22;
+}
+
+
